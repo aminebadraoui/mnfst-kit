@@ -30,5 +30,7 @@
   },
   "dependencies": {
     "react-router-dom": "^6.26.2"
-  }
+  },
+  "gitHead": "002ee5ff130d8341f9a7631b04513631696a4d05",
+  "license": "MIT"
 }

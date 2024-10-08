@@ -1,0 +1,23 @@
+{
+  "name": "mnfst-kit-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run start --stream",
+    "build": "lerna run build --stream",
+    "test": "lerna run test --stream",
+    "update-shared": "lerna version --no-push && lerna publish from-git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lerna": "^8.1.8"
+  }
+}

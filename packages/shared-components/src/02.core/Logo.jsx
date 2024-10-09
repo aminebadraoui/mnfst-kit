@@ -1,8 +1,8 @@
 import React from "react";
 
-const Logo = ({ className }) => {
+const Logo = ({ title, className }) => {
     return (
-        <h1 className={className}> MNFST KIT </h1>
+        <h1 className={`text-2xl font-bold ${className}`}> {title} </h1>
     );
 }
 
